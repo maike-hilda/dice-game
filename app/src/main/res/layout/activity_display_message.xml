@@ -6,4 +6,99 @@
     android:layout_height="match_parent"
     tools:context=".DisplayMessageActivity">
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView
+            android:id="@+id/playerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="240dp"
+            android:layout_marginRight="240dp"
+            android:text="Player Rolls:"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/compRolls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="202dp"
+            android:layout_marginRight="202dp"
+            android:text="Computer Rolls:"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/outputBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="139dp"
+            android:text=""
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <TextView
+            android:id="@+id/pRoll1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/playerText"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <TextView
+            android:id="@+id/pRoll2"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pRoll1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="135dp"
+            android:layout_marginRight="135dp"
+            android:layout_marginBottom="0dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/cRoll1"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginRight="152dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/cRoll2"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginBottom="385dp"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
